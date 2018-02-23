@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/TextViewWishXmlId"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="Wish"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/TextViewDateXmlId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date/time"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
